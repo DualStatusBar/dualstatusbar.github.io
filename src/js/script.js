@@ -208,7 +208,7 @@
           ext_grid.appendChild(div);
       }
   }
-  fetch('https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/data.json')
+  fetch('https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/txt/data.json')
       .then(function (response) {
           return response.json();
       })
