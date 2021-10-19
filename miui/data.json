@@ -1,0 +1,254 @@
+[
+    {
+        "name": "POCO F1",
+        "author": "DSB TEAM",
+        "description":"All MIUI DSBs for Pocophone F1 will be Available Here. ",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/poco.png",
+        "cwsurl": "https://dualstatusbar.github.io/miui/pocof1",
+        "officialurl": "https://dualstatusbar.github.io/miui/pocof1",
+        "githuburl":"https://dualstatusbar.github.io/miui/pocof1",
+        "category": "poco series"
+    },
+
+    {
+        "name": "POCO M3",
+        "author": "DSB TEAM",
+        "description":"All MIUI DSBs for Poco M3 will be Available Here. ",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/poco.png",
+        "cwsurl": "https://dualstatusbar.github.io/miui/pocom3",
+        "officialurl": "https://dualstatusbar.github.io/miui/pocom3",
+        "githuburl":"https://dualstatusbar.github.io/miui/pocom3",
+        "category": "poco series"
+    },
+
+    {
+        "name": "POCO X2",
+        "author": "DSB TEAM",
+        "description":"All MIUI DSBs for Poco X2 will be Available Here. ",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/poco.png",
+        "cwsurl": "https://dualstatusbar.github.io/miui/pocox2",
+        "officialurl": "https://dualstatusbar.github.io/miui/pocox2",
+        "githuburl":"https://dualstatusbar.github.io/miui/pocox2",
+        "category": "poco series"
+    },
+
+    {
+        "name": "POCO X3",
+        "author": "DSB TEAM",
+        "description":"All MIUI DSBs for Poco X3 will be Available Here. ",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/poco.png",
+        "cwsurl": "https://dualstatusbar.github.io/miui/pocox3",
+        "officialurl": "https://dualstatusbar.github.io/miui/pocox3",
+        "githuburl":"https://dualstatusbar.github.io/miui/pocox3",
+        "category": "poco series"
+    },
+
+    {
+        "name": "POCO X3 PRO",
+        "author": "DSB TEAM",
+        "description":"All MIUI DSBs for Poco X3 pro will be Available Here. ",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/poco.png",
+        "cwsurl": "https://dualstatusbar.github.io/miui/pocox3pro",
+        "officialurl": "https://dualstatusbar.github.io/miui/pocox3pro",
+        "githuburl":"https://dualstatusbar.github.io/miui/pocox3pro",
+        "category": "poco series"
+    },
+
+    {
+        "name": "REDMI NOTE 7/7s/7pro",
+        "author": "DSB TEAM",
+        "description":"All MIUI DSBs for Redmi Note 7/7s/7pro will be Available Here. ",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/note.png",
+        "cwsurl": "https://dualstatusbar.github.io/miui/note7",
+        "officialurl": "https://dualstatusbar.github.io/miui/note7",
+        "githuburl":"https://dualstatusbar.github.io/miui/note7",
+        "category": "note series"
+    },
+
+    {
+        "name": "REDMI NOTE 8",
+        "author": "DSB TEAM",
+        "description":"All MIUI DSBs for Redmi Note 8 will be Available Here. ",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/note.png",
+        "cwsurl": "https://dualstatusbar.github.io/miui/note8",
+        "officialurl": "https://dualstatusbar.github.io/miui/note8",
+        "githuburl":"https://dualstatusbar.github.io/miui/note8",
+        "category": "note series"
+    },
+
+    {
+        "name": "REDMI NOTE 8 PRO",
+        "author": "DSB TEAM",
+        "description":"All MIUI DSBs for Redmi Note 8 Pro will be Available Here. ",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/note.png",
+        "cwsurl": "https://dualstatusbar.github.io/miui/note8pro",
+        "officialurl": "https://dualstatusbar.github.io/miui/note8pro",
+        "githuburl":"https://dualstatusbar.github.io/miui/note8pro",
+        "category": "note series"
+    },
+
+    {
+        "name": "REDMI NOTE 9",
+        "author": "DSB TEAM",
+        "description":"All MIUI DSBs for Redmi Note 9 will be Available Here. ",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/note.png",
+        "cwsurl": "https://dualstatusbar.github.io/miui/note9",
+        "officialurl": "https://dualstatusbar.github.io/miui/note9",
+        "githuburl":"https://dualstatusbar.github.io/miui/note9",
+        "category": "note series"
+    },
+
+    {
+        "name": "REDMI NOTE 9s",
+        "author": "DSB TEAM",
+        "description":"All MIUI DSBs for Redmi Note 9s will be Available Here. ",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/note.png",
+        "cwsurl": "https://dualstatusbar.github.io/miui/note9s",
+        "officialurl": "https://dualstatusbar.github.io/miui/note9s",
+        "githuburl":"https://dualstatusbar.github.io/miui/note9s",
+        "category": "note series"
+    },
+
+    {
+        "name": "REDMI NOTE 9 PRO",
+        "author": "DSB TEAM",
+        "description":"All MIUI DSBs for Redmi Note 9 pro will be Available Here. ",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/note.png",
+        "cwsurl": "https://dualstatusbar.github.io/miui/note9pro",
+        "officialurl": "https://dualstatusbar.github.io/miui/note9pro",
+        "githuburl":"https://dualstatusbar.github.io/miui/note9pro",
+        "category": "note series"
+    },
+
+    {
+        "name": "REDMI NOTE 10",
+        "author": "DSB TEAM",
+        "description":"All MIUI DSBs for Redmi Note 10 will be Available Here. ",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/note.png",
+        "cwsurl": "https://dualstatusbar.github.io/miui/note10",
+        "officialurl": "https://dualstatusbar.github.io/miui/note10",
+        "githuburl":"https://dualstatusbar.github.io/miui/note10",
+        "category": "note series"
+    },
+
+    {
+        "name": "REDMI NOTE 10 PRO",
+        "author": "DSB TEAM",
+        "description":"All MIUI DSBs for Redmi Note 10 Pro will be Available Here. ",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/note.png",
+        "cwsurl": "https://dualstatusbar.github.io/miui/note10pro",
+        "officialurl": "https://dualstatusbar.github.io/miui/note10pro",
+        "githuburl":"https://dualstatusbar.github.io/miui/note10pro",
+        "category": "note series"
+    },
+
+    {
+        "name": "REDMI NOTE 10 LITE",
+        "author": "DSB TEAM",
+        "description":"All MIUI DSBs for Redmi Note 10 Lite will be Available Here. ",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/note.png",
+        "cwsurl": "https://dualstatusbar.github.io/miui/note10lite",
+        "officialurl": "https://dualstatusbar.github.io/miui/note10lite",
+        "githuburl":"https://dualstatusbar.github.io/miui/note10lite",
+        "category": "note series"
+    },
+
+    {
+        "name": "REDMI K20",
+        "author": "DSB TEAM",
+        "description":"All MIUI DSBs for Redmi K20 will be Available Here. ",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/k.png",
+        "cwsurl": "https://dualstatusbar.github.io/miui/k20",
+        "officialurl": "https://dualstatusbar.github.io/miui/k20",
+        "githuburl":"https://dualstatusbar.github.io/miui/k20",
+        "category": "K series"
+    },
+
+    {
+        "name": "REDMI K20 PRO",
+        "author": "DSB TEAM",
+        "description":"All MIUI DSBs for Redmi K20 Pro will be Available Here. ",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/k.png",
+        "cwsurl": "https://dualstatusbar.github.io/miui/k20pro",
+        "officialurl": "https://dualstatusbar.github.io/miui/k20pro",
+        "githuburl":"https://dualstatusbar.github.io/miui/k20pro",
+        "category": "K series"
+    },
+
+    {
+        "name": "REDMI K30",
+        "author": "DSB TEAM",
+        "description":"All MIUI DSBs for Redmi K30 will be Available Here. ",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/k.png",
+        "cwsurl": "https://dualstatusbar.github.io/miui/k30",
+        "officialurl": "https://dualstatusbar.github.io/miui/k30",
+        "githuburl":"https://dualstatusbar.github.io/miui/k30",
+        "category": "K series"
+    },
+
+    {
+        "name": "REDMI K40",
+        "author": "DSB TEAM",
+        "description":"All MIUI DSBs for Redmi K40 will be Available Here. ",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/k.png",
+        "cwsurl": "https://dualstatusbar.github.io/miui/k40",
+        "officialurl": "https://dualstatusbar.github.io/miui/k40",
+        "githuburl":"https://dualstatusbar.github.io/miui/k40",
+        "category": "K series"
+    },
+
+    {
+        "name": "MI A1",
+        "author": "DSB TEAM",
+        "description":"All MIUI DSBs for Mi A1 will be Available Here. ",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/mi.png",
+        "cwsurl": "https://dualstatusbar.github.io/miui/k20",
+        "officialurl": "https://dualstatusbar.github.io/miui/k20",
+        "githuburl":"https://dualstatusbar.github.io/miui/k20",
+        "category": "mi series"
+    },
+
+    {
+        "name": "MI 9",
+        "author": "DSB TEAM",
+        "description":"All MIUI DSBs for Mi 9 will be Available Here. ",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/mi.png",
+        "cwsurl": "https://dualstatusbar.github.io/miui/mi9",
+        "officialurl": "https://dualstatusbar.github.io/miui/mi9",
+        "githuburl":"https://dualstatusbar.github.io/miui/mi9",
+        "category": "mi series"
+    },
+
+    {
+        "name": "MI 9se",
+        "author": "DSB TEAM",
+        "description":"All MIUI DSBs for Mi 9se will be Available Here. ",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/mi.png",
+        "cwsurl": "https://dualstatusbar.github.io/miui/mi9se",
+        "officialurl": "https://dualstatusbar.github.io/miui/mi9se",
+        "githuburl":"https://dualstatusbar.github.io/miui/mi9se",
+        "category": "mi series"
+    },
+
+    {
+        "name": "MI 10 PRO",
+        "author": "DSB TEAM",
+        "description":"All MIUI DSBs for Mi 10 Pro will be Available Here. ",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/mi.png",
+        "cwsurl": "https://dualstatusbar.github.io/miui/mi10pro",
+        "officialurl": "https://dualstatusbar.github.io/miui/mi10pro",
+        "githuburl":"https://dualstatusbar.github.io/miui/mi10pro",
+        "category": "mi series"
+    },
+
+    {
+        "name": "REALME MIUI PORTS",
+        "author": "DSB TEAM",
+        "description":"All MIUI DSBs for RealMeme will be Available Here. ",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/realme.png",
+        "cwsurl": "https://dualstatusbar.github.io/miui/realme",
+        "officialurl": "https://dualstatusbar.github.io/miui/realme",
+        "githuburl":"https://dualstatusbar.github.io/miui/realme",
+        "category": "realme port"
+    }
+]
