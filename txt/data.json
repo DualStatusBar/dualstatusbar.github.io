@@ -1,0 +1,628 @@
+[
+    {
+        "name": "AospExtended",
+        "author": "DSB TEAM",
+        "description":"All DSBs for AEX will be Available Here. ",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Aex.png",
+        "cwsurl": "https://dualstatusbar.github.io/Aex.html",
+        "officialurl": "https://dualstatusbar.github.io/Aex.html",
+        "githuburl":"https://dualstatusbar.github.io/Aex.html",
+        "category": "A"
+    },
+
+    {
+        "name": "Android Ice Cold Project",
+        "author": "DSB TEAM",
+        "description":"All DSBs for AEX will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Aicp.png",
+        "cwsurl": "https://dualstatusbar.github.io/Aicp.html",
+        "officialurl": "https://dualstatusbar.github.io/Aicp.html",
+        "githuburl":"https://dualstatusbar.github.io/Aicp.html",
+        "category": "A"
+    },
+
+    {
+        "name": "Android Open Source illusion Project",
+        "author": "DSB TEAM",
+        "description":"All DSBs for AOSiP will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Aosip.png",
+        "cwsurl": "https://dualstatusbar.github.io/Aosip.html",
+        "officialurl": "https://dualstatusbar.github.io/Aosip.html",
+        "githuburl":"https://dualstatusbar.github.io/Aosip.html",
+        "category": "A"
+    },
+
+    {
+        "name": "AOSP Kraken ",
+        "author": "DSB TEAM",
+        "description":"All DSBs for AOSPK will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Aospk.png",
+        "cwsurl": "https://dualstatusbar.github.io/Aospk.html",
+        "officialurl": "https://dualstatusbar.github.io/Aospk.html",
+        "githuburl":"https://dualstatusbar.github.io/Aospk.html",
+        "category": "A"
+    },
+
+    {
+        "name": "Arrow OS",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Arrow-OS will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Arrow.png",
+        "cwsurl": "https://dualstatusbar.github.io/Arrow.html",
+        "officialurl": "https://dualstatusbar.github.io/Arrow.html",
+        "githuburl":"https://dualstatusbar.github.io/Arrow.html",
+        "category": "A"
+    },
+
+    {
+        "name": "Awaken OS",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Awaken-OS will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Awaken.png",
+        "cwsurl": "https://dualstatusbar.github.io/Awaken.html",
+        "officialurl": "https://dualstatusbar.github.io/Awaken.html",
+        "githuburl":"https://dualstatusbar.github.io/Awaken.html",
+        "category": "A"
+    },
+
+    {
+        "name": "Banana Droid",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Banana Droid will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Banana.png",
+        "cwsurl": "https://dualstatusbar.github.io/Banana.html",
+        "officialurl": "https://dualstatusbar.github.io/Banana.html",
+        "githuburl":"https://dualstatusbar.github.io/Banana.html",
+        "category": "B"
+    },
+
+    {
+        "name": "Baikal OS",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Baikal-OS will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Baikal.png",
+        "cwsurl": "https://dualstatusbar.github.io/Baikal.html",
+        "officialurl": "https://dualstatusbar.github.io/Baikal.html",
+        "githuburl":"https://dualstatusbar.github.io/Baikal.html",
+        "category": "B"
+    },
+
+    {
+        "name": "Bliss ROM",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Bliss ROM will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Bliss.png",
+        "cwsurl": "https://dualstatusbar.github.io/Bliss.html",
+        "officialurl": "https://dualstatusbar.github.io/Bliss.html",
+        "githuburl":"https://dualstatusbar.github.io/Bliss.html",
+        "category": "B"
+    },
+
+    {
+        "name": "CAF Extended",
+        "author": "DSB TEAM",
+        "description":"All DSBs for CAFEX will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Cafex.png",
+        "cwsurl": "https://dualstatusbar.github.io/Cafex.html",
+        "officialurl": "https://dualstatusbar.github.io/Cafex.html",
+        "githuburl":"https://dualstatusbar.github.io/Cafex.html",
+        "category": "C"
+    },
+
+    {
+        "name": "Carbon OS",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Carbon-OS will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Carbon.png",
+        "cwsurl": "https://dualstatusbar.github.io/Carbon.html",
+        "officialurl": "https://dualstatusbar.github.io/Carbon.html",
+        "githuburl":"https://dualstatusbar.github.io/Carbon.html",
+        "category": "C"
+    },
+
+    {
+        "name": "Cherish OS",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Cherish-OS will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Cherish.png",
+        "cwsurl": "https://dualstatusbar.github.io/Cherish.html",
+        "officialurl": "https://dualstatusbar.github.io/Cherish.html",
+        "githuburl":"https://dualstatusbar.github.io/Cherish.html",
+        "category": "C"
+    },
+
+    {
+        "name": "Cipher OS",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Cipher-OS will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Cipher.jpg",
+        "cwsurl": "https://dualstatusbar.github.io/Cipher.html",
+        "officialurl": "https://dualstatusbar.github.io/Cipher.html",
+        "githuburl":"https://dualstatusbar.github.io/Cipher.html",
+        "category": "C"
+    },
+    
+    {
+        "name": "Colt OS",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Colt-OS will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Colt.png",
+        "cwsurl": "https://dualstatusbar.github.io/Colt.html",
+        "officialurl": "https://dualstatusbar.github.io/Colt.html",
+        "githuburl":"https://dualstatusbar.github.io/Colt.html",
+        "category": "C"
+    },
+
+    {
+        "name": "Conquer OS",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Conquer OS will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Conquer.png",
+        "cwsurl": "https://dualstatusbar.github.io/Conquer.html",
+        "officialurl": "https://dualstatusbar.github.io/Conquer.html",
+        "githuburl":"https://dualstatusbar.github.io/Conquer.html",
+        "category": "C"
+    },
+
+    {
+        "name": "Corvus OS",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Corvus-OS will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Corvus.png",
+        "cwsurl": "https://dualstatusbar.github.io/Corvus.html",
+        "officialurl": "https://dualstatusbar.github.io/Corvus.html",
+        "githuburl":"https://dualstatusbar.github.io/Corvus.html",
+        "category": "C"
+    },
+
+    {
+        "name": "crDroid",
+        "author": "DSB TEAM",
+        "description":"All DSBs for crDroid will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Crdroid.png",
+        "cwsurl": "https://dualstatusbar.github.io/Crdroid.html",
+        "officialurl": "https://dualstatusbar.github.io/Crdroid.html",
+        "githuburl":"https://dualstatusbar.github.io/Crdroid.html",
+        "category": "C"
+    },
+    
+    {
+        "name": "Derpfest",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Derpfest will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Derpfest.png",
+        "cwsurl": "https://dualstatusbar.github.io/Derpfest.html",
+        "officialurl": "https://dualstatusbar.github.io/Derpfest.html",
+        "githuburl":"https://dualstatusbar.github.io/Derpfest.html",
+        "category": "D"
+    },
+
+    {
+        "name": "Descendant OS",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Descendant-OS will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Descendant.png",
+        "cwsurl": "https://dualstatusbar.github.io/Descendant.html",
+        "officialurl": "https://dualstatusbar.github.io/Descendant.html",
+        "githuburl":"https://dualstatusbar.github.io/Descendant.html",
+        "category": "D"
+    },
+
+    {
+        "name": "Dot OS",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Derpfest will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Dot.png",
+        "cwsurl": "https://dualstatusbar.github.io/Dot.html",
+        "officialurl": "https://dualstatusbar.github.io/Dot.html",
+        "githuburl":"https://dualstatusbar.github.io/Dot.html",
+        "category": "D"
+    },
+
+    {
+        "name": "EvolutionX",
+        "author": "DSB TEAM",
+        "description":"All DSBs for EvolutionX will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Evox.png",
+        "cwsurl": "https://dualstatusbar.github.io/Evox.html",
+        "officialurl": "https://dualstatusbar.github.io/Evox.html",
+        "githuburl":"https://dualstatusbar.github.io/Evox.html",
+        "category": "E"
+    },
+
+    {
+        "name": "ExthumUI",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Exthum-UI will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Exthmui.png",
+        "cwsurl": "https://dualstatusbar.github.io/Exthum.html",
+        "officialurl": "https://dualstatusbar.github.io/Exthum.html",
+        "githuburl":"https://dualstatusbar.github.io/Exthum.html",
+        "category": "E"
+    },
+
+    {
+        "name": "Fluid OS",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Fluid-OS will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Fluid.png",
+        "cwsurl": "https://dualstatusbar.github.io/Fluid.html",
+        "officialurl": "https://dualstatusbar.github.io/Fluid.html",
+        "githuburl":"https://dualstatusbar.github.io/Fluid.html",
+        "category": "F"
+    },
+
+    {
+        "name": "Havoc OS",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Havoc-OS will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Havoc.png",
+        "cwsurl": "https://dualstatusbar.github.io/Havoc.html",
+        "officialurl": "https://dualstatusbar.github.io/Havoc.html",
+        "githuburl":"https://dualstatusbar.github.io/Havoc.html",
+        "category": "H"
+    },
+
+    {
+        "name": "Hycon OS",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Hycon-OS will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Hycon.png",
+        "cwsurl": "https://dualstatusbar.github.io/Hycon.html",
+        "officialurl": "https://dualstatusbar.github.io/Hycon.html",
+        "githuburl":"https://dualstatusbar.github.io/Hycon.html",
+        "category": "H"
+    },
+    
+    {
+        "name": "Kang OS",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Kang-OS will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Kang.png",
+        "cwsurl": "https://dualstatusbar.github.io/Kang.html",
+        "officialurl": "https://dualstatusbar.github.io/Kang.html",
+        "githuburl":"https://dualstatusbar.github.io/Kang.html",
+        "category": "K"
+    },
+
+    {
+        "name": "Komodo OS",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Komodo-OS will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Komodo.png",
+        "cwsurl": "https://dualstatusbar.github.io/Komodo.html",
+        "officialurl": "https://dualstatusbar.github.io/Komodo.html",
+        "githuburl":"https://dualstatusbar.github.io/Komodo.html",
+        "category": "K"
+    },
+
+    {
+        "name": "Legion OS",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Legion-OS will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Legion.png",
+        "cwsurl": "https://dualstatusbar.github.io/Legion.html",
+        "officialurl": "https://dualstatusbar.github.io/Legion.html",
+        "githuburl":"https://dualstatusbar.github.io/Legion.html",
+        "category": "L"
+    },
+
+    {
+        "name": "Lineage Based",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Lineage Based ROMs will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Lineage.png",
+        "cwsurl": "https://dualstatusbar.github.io/Lineage.html",
+        "officialurl": "https://dualstatusbar.github.io/Lineage.html",
+        "githuburl":"https://dualstatusbar.github.io/Lineage.html",
+        "category": "L"
+    },
+
+    {
+        "name": "Mokee OS",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Mokee-OS will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Mokee.png",
+        "cwsurl": "https://dualstatusbar.github.io/Mokee.html",
+        "officialurl": "https://dualstatusbar.github.io/Mokee.html",
+        "githuburl":"https://dualstatusbar.github.io/Mokee.html",
+        "category": "M"
+    },
+
+    {
+        "name": "Nezuko OS",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Nezuko-OS will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Nezuko.png",
+        "cwsurl": "https://dualstatusbar.github.io/Nezuko.html",
+        "officialurl": "https://dualstatusbar.github.io/Nezuko.html",
+        "githuburl":"https://dualstatusbar.github.io/Nezuko.html",
+        "category": "N"
+    },
+
+    {
+        "name": "Nitrogen OS",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Nitrogen-OS will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Nitrogen.png",
+        "cwsurl": "https://dualstatusbar.github.io/Nitrogen.html",
+        "officialurl": "https://dualstatusbar.github.io/Nitrogen.html",
+        "githuburl":"https://dualstatusbar.github.io/Nitrogen.html",
+        "category": "N"
+    },
+
+    {
+        "name": "Nusantara Project",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Nusantara Project will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Nusantara.png",
+        "cwsurl": "https://dualstatusbar.github.io/Nusantara.html",
+        "officialurl": "https://dualstatusbar.github.io/Nusantara.html",
+        "githuburl":"https://dualstatusbar.github.io/Nusantara.html",
+        "category": "N"
+    },
+
+    {
+        "name": "Octavi OS",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Octavi-OS will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Octavi.png",
+        "cwsurl": "https://dualstatusbar.github.io/Octavi.html",
+        "officialurl": "https://dualstatusbar.github.io/Octavi.html",
+        "githuburl":"https://dualstatusbar.github.io/Octavi.html",
+        "category": "O"
+    },
+    
+    {
+        "name": "Paranoid Android",
+        "author": "DSB TEAM",
+        "description":"All DSBs for AOSPA will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Paranoid.png",
+        "cwsurl": "https://dualstatusbar.github.io/Paranoid.html",
+        "officialurl": "https://dualstatusbar.github.io/Paranoid.html",
+        "githuburl":"https://dualstatusbar.github.io/Paranoid.html",
+        "category": "P"
+    },
+
+    {
+        "name": "Pixel Based",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Pixel Based will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Pixel.png",
+        "cwsurl": "https://dualstatusbar.github.io/Pixel.html",
+        "officialurl": "https://dualstatusbar.github.io/Pixel.html",
+        "githuburl":"https://dualstatusbar.github.io/Pixel.html",
+        "category": "P"
+    },
+
+    {
+        "name": "Potato Open Sauce Project",
+        "author": "DSB TEAM",
+        "description":"All DSBs for POSP will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Posp.png",
+        "cwsurl": "https://dualstatusbar.github.io/Posp.html",
+        "officialurl": "https://dualstatusbar.github.io/Posp.html",
+        "githuburl":"https://dualstatusbar.github.io/Posp.html",
+        "category": "P"
+    },
+
+    {
+        "name": "Project 404",
+        "author": "DSB TEAM",
+        "description":"All DSBs for P404 will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/P404.png",
+        "cwsurl": "https://dualstatusbar.github.io/P404.html",
+        "officialurl": "https://dualstatusbar.github.io/P404.html",
+        "githuburl":"https://dualstatusbar.github.io/P404.html",
+        "category": "P"
+    },
+
+    {
+        "name": "Project Lighthouse",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Project Lighthouse will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Lighthouse.jpg",
+        "cwsurl": "https://dualstatusbar.github.io/Lighthouse.html",
+        "officialurl": "https://dualstatusbar.github.io/Lighthouse.html",
+        "githuburl":"https://dualstatusbar.github.io/Lighthouse.html",
+        "category": "P"
+    },
+
+    {
+        "name": "Project Radiant",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Project Radiant will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Radiant.png",
+        "cwsurl": "https://dualstatusbar.github.io/Radiant.html",
+        "officialurl": "https://dualstatusbar.github.io/Radiant.html",
+        "githuburl":"https://dualstatusbar.github.io/Radiant.html",
+        "category": "P"
+    },
+
+    {
+        "name": "Project Sakura",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Project Sakura will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Sakura.png",
+        "cwsurl": "https://dualstatusbar.github.io/Sakura.html",
+        "officialurl": "https://dualstatusbar.github.io/Sakura.html",
+        "githuburl":"https://dualstatusbar.github.io/Sakura.html",
+        "category": "P"
+    },
+
+    {
+        "name": "Resurrection Remix",
+        "author": "DSB TEAM",
+        "description":"All DSBs for RR will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/RR.png",
+        "cwsurl": "https://dualstatusbar.github.io/RR.html",
+        "officialurl": "https://dualstatusbar.github.io/RR.html",
+        "githuburl":"https://dualstatusbar.github.io/RR.html",
+        "category": "R"
+    },
+
+    {
+        "name": "Reloaded OS",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Reloaded-OS will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Reloaded.jpg",
+        "cwsurl": "https://dualstatusbar.github.io/Reloaded.html",
+        "officialurl": "https://dualstatusbar.github.io/Reloaded.html",
+        "githuburl":"https://dualstatusbar.github.io/Reloaded.html",
+        "category": "R"
+    },
+
+    {
+        "name": "Revenge OS",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Revenge-OS will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Revenge.png",
+        "cwsurl": "https://dualstatusbar.github.io/Revenge.html",
+        "officialurl": "https://dualstatusbar.github.io/Revenge.html",
+        "githuburl":"https://dualstatusbar.github.io/Revenge.html",
+        "category": "R"
+    },
+
+    {
+        "name": "Rohie OS",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Rohie-OS will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Rohie.png",
+        "cwsurl": "https://dualstatusbar.github.io/Rohie.html",
+        "officialurl": "https://dualstatusbar.github.io/Rohie.html",
+        "githuburl":"https://dualstatusbar.github.io/Rohie.html",
+        "category": "R"
+    },
+    
+    {
+        "name": "Spark OS",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Spark-OS will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Spark.png",
+        "cwsurl": "https://dualstatusbar.github.io/Spark.html",
+        "officialurl": "https://dualstatusbar.github.io/Spark.html",
+        "githuburl":"https://dualstatusbar.github.io/Spark.html",
+        "category": "S"
+    },
+
+    {
+        "name": "Spice OS",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Spice-OS will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Spice.png",
+        "cwsurl": "https://dualstatusbar.github.io/Spice.html",
+        "officialurl": "https://dualstatusbar.github.io/Spice.html",
+        "githuburl":"https://dualstatusbar.github.io/Spice.html",
+        "category": "S"
+    },
+
+    {
+        "name": "Shapeshift OS",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Shapeshift-OS will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Shapeshift.png",
+        "cwsurl": "https://dualstatusbar.github.io/Shapeshift.html",
+        "officialurl": "https://dualstatusbar.github.io/Shapeshift.html",
+        "githuburl":"https://dualstatusbar.github.io/Shapeshift.html",
+        "category": "S"
+    },
+
+    {
+        "name": "Stag OS",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Stag-OS will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Stag.jpg",
+        "cwsurl": "https://dualstatusbar.github.io/Stag.html",
+        "officialurl": "https://dualstatusbar.github.io/Stag.html",
+        "githuburl":"https://dualstatusbar.github.io/Stag.html",
+        "category": "S"
+    },
+
+    {
+        "name": "Statix OS",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Statix-OS will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Statix.png",
+        "cwsurl": "https://dualstatusbar.github.io/Statix.html",
+        "officialurl": "https://dualstatusbar.github.io/Statix.html",
+        "githuburl":"https://dualstatusbar.github.io/Statix.html",
+        "category": "S"
+    },
+
+    {
+        "name": "Stellar OS",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Stellar-OS will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Stellar.png",
+        "cwsurl": "https://dualstatusbar.github.io/Stellar.html",
+        "officialurl": "https://dualstatusbar.github.io/Stellar.html",
+        "githuburl":"https://dualstatusbar.github.io/Stellar.html",
+        "category": "S"
+    },
+    
+    {
+        "name": "Superior OS",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Superior-OS will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Superior.png",
+        "cwsurl": "https://dualstatusbar.github.io/Superior.html",
+        "officialurl": "https://dualstatusbar.github.io/Superior.html",
+        "githuburl":"https://dualstatusbar.github.io/Superior.html",
+        "category": "S"
+    },
+
+    {
+        "name": "Syberia OS",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Syberia-OS will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Syberia.png",
+        "cwsurl": "https://dualstatusbar.github.io/Syberia.html",
+        "officialurl": "https://dualstatusbar.github.io/Syberia.html",
+        "githuburl":"https://dualstatusbar.github.io/Syberia.html",
+        "category": "S"
+    },
+
+    {
+        "name": "Wave OS",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Wave-OS will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Wave.png",
+        "cwsurl": "https://dualstatusbar.github.io/Wave.html",
+        "officialurl": "https://dualstatusbar.github.io/Wave.html",
+        "githuburl":"https://dualstatusbar.github.io/Wave.html",
+        "category": "W"
+    },
+    
+     {
+        "name": "X-Droid",
+        "author": "DSB TEAM",
+        "description":"All DSBs for X-Droid will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Xdroid.png",
+        "cwsurl": "https://dualstatusbar.github.io/Xdroid.html",
+        "officialurl": "https://dualstatusbar.github.io/Xdroid.html",
+        "githuburl":"https://dualstatusbar.github.io/Xdroid.html",
+        "category": "X"
+    },
+
+    {
+        "name": "Xperience Project",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Xperience Project will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Xperience.png",
+        "cwsurl": "https://dualstatusbar.github.io/Xperience.html",
+        "officialurl": "https://dualstatusbar.github.io/Xperience.html",
+        "githuburl":"https://dualstatusbar.github.io/Xperience.html",
+        "category": "X"
+    },
+
+    {
+        "name": "Xtended OS",
+        "author": "DSB TEAM",
+        "description":"All DSBs for Xtended-OS will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Xtended.png",
+        "cwsurl": "https://dualstatusbar.github.io/Xtended.html",
+        "officialurl": "https://dualstatusbar.github.io/Xtended.html",
+        "githuburl":"https://dualstatusbar.github.io/Xtended.html",
+        "category": "X"
+    }
+]
