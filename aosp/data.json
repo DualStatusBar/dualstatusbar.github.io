@@ -255,22 +255,22 @@
     {
         "name": "Havoc OS",
         "author": "DSB TEAM",
-        "description":"All DSBs for Helluva-OS will be Available Here.",
-        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Hentai.png",
-        "cwsurl": "https://dualstatusbar.github.io/aosp/Hentai",
-        "officialurl": "https://dualstatusbar.github.io/aosp/Hentai",
-        "githuburl":"https://dualstatusbar.github.io/aosp/Hentai",
+        "description":"All DSBs for Havoc-OS will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Havoc.png",
+        "cwsurl": "https://dualstatusbar.github.io/aosp/Havoc",
+        "officialurl": "https://dualstatusbar.github.io/aosp/Havoc",
+        "githuburl":"https://dualstatusbar.github.io/aosp/Havoc",
         "category": "H"
     },
     
     {
         "name": "Hentai OS",
         "author": "DSB TEAM",
-        "description":"All DSBs for Havoc-OS will be Available Here.",
-        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Havoc.png",
-        "cwsurl": "https://dualstatusbar.github.io/aosp/Havoc",
-        "officialurl": "https://dualstatusbar.github.io/aosp/Havoc",
-        "githuburl":"https://dualstatusbar.github.io/aosp/Havoc",
+        "description":"All DSBs for Helluva-OS will be Available Here.",
+        "logo": "https://raw.githubusercontent.com/DualStatusBar/dualstatusbar.github.io/main/assets/img/logo/Hentai.png",
+        "cwsurl": "https://dualstatusbar.github.io/aosp/Hentai",
+        "officialurl": "https://dualstatusbar.github.io/aosp/Hentai",
+        "githuburl":"https://dualstatusbar.github.io/aosp/Hentai",
         "category": "H"
     },
 
