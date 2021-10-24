@@ -2,95 +2,168 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>DualStatusBar</title>
-    <link rel="shortcut icon" href="./src/favicon1.png" type="image/svg+xml">
-    <link href="src/css/style.css" rel="stylesheet">
-</head>
-<body>
-    <header class="fixed">
-        <nav>
-            <a href="index.html"><img src="./src/DSB-2.png" width="250" height="40"></a>
-            <ul>
+<script language="javascript" type="text/javascript" src="txt/headcodes.txt"></script>
+ <style>
 
-                <li>
-                    <a href='index.html' target='_blank'>
-                        <svg role="img" class="_icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                        <title>HOME</title>
-                            <path d="M21 13v10h-6v-6h-6v6h-6v-10h-3l12-12 12 12h-3zm-1-5.907v-5.093h-3v2.093l3 3z"/></svg>
-                        &nbsp; HOME
-                      </a>                        
-                    <a href="https://t.me/miuidsb_support">       
-                        <svg role="img" class="_icon" viewBox="0 0 24 24" width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
-                           <title>TG</title>
-                            <path id="telegram-1" d="M18.384,22.779c0.322,0.228 0.737,0.285 1.107,0.145c0.37,-0.141 0.642,-0.457 0.724,-0.84c0.869,-4.084 2.977,-14.421 3.768,-18.136c0.06,-0.28 -0.04,-0.571 -0.26,-0.758c-0.22,-0.187 -0.525,-0.241 -0.797,-0.14c-4.193,1.552 -17.106,6.397 -22.384,8.35c-0.335,0.124 -0.553,0.446 -0.542,0.799c0.012,0.354 0.25,0.661 0.593,0.764c2.367,0.708 5.474,1.693 5.474,1.693c0,0 1.452,4.385 2.209,6.615c0.095,0.28 0.314,0.5 0.603,0.576c0.288,0.075 0.596,-0.004 0.811,-0.207c1.216,-1.148 3.096,-2.923 3.096,-2.923c0,0 3.572,2.619 5.598,4.062Zm-11.01,-8.677l1.679,5.538l0.373,-3.507c0,0 6.487,-5.851 10.185,-9.186c0.108,-0.098 0.123,-0.262 0.033,-0.377c-0.089,-0.115 -0.253,-0.142 -0.376,-0.064c-4.286,2.737 -11.894,7.596 -11.894,7.596Z"/></svg>&nbsp; CONTACT
-                         </a>
-                         <a href='index.html#cta' target='_blank'>
-                        <svg role="img" class="_icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                          <title>DONATE</title>
-                          <path
-                            d="M23.881 8.948c-.773-4.085-4.859-4.593-4.859-4.593H.723c-.604 0-.679.798-.679.798s-.082 7.324-.022 11.822c.164 2.424 2.586 2.672 2.586 2.672s8.267-.023 11.966-.049c2.438-.426 2.683-2.566 2.658-3.734 4.352.24 7.422-2.831 6.649-6.916zm-11.062 3.511c-1.246 1.453-4.011 3.976-4.011 3.976s-.121.119-.31.023c-.076-.057-.108-.09-.108-.09-.443-.441-3.368-3.049-4.034-3.954-.709-.965-1.041-2.7-.091-3.71.951-1.01 3.005-1.086 4.363.407 0 0 1.565-1.782 3.468-.963 1.904.82 1.832 3.011.723 4.311zm6.173.478c-.928.116-1.682.028-1.682.028V7.284h1.77s1.971.551 1.971 2.638c0 1.913-.985 2.667-2.059 3.015z" />
-                        </svg>
-                        &nbsp; DONATE
-                      </a>
-                </li>
-            </ul>
-            <button>
-                <svg aria-hidden="true" version="1.1" viewBox="0 0 24 24">
-                    <line x1="2" y1="4" x2="22" y2="4" id="top" />
-                    <line x1="2" y1="12" x2="22" y2="12" id="middle-down" />
-                    <line x1="2" y1="12" x2="22" y2="12" id="middle-up" />
-                    <line x1="2" y1="20" x2="22" y2="20" id="bottom" />
-                </svg>
-            </button>
-        </nav>
-    </header>
-    <ul class="squares">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-     </ul>
-    <main class="_pt-3">
-        <!-- Header -->
-    <div class="hero">
-        <div class="_aos-top">
+ #content { 
+  overflow:auto; 
+  width: 600px; 
+  background: gray; 
+} 
+
+#left, #right { 
+  width: 45%; 
+  margin:1px; 
+  padding: 1em; 
+  background: white; 
+} 
+
+#left  { float:left;  }
+#right { float:right; }
+</style>
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+<script language="javascript" type="text/javascript" src="txt/headerandbread.txt"></script>
+<!-- End Breadcrumbs -->
+    
+
+
+    <!-- ======= Modules ======= -->
+   <section id="modules" class="modules"> 
+      <div class="container">
+
+          <div class="section-title" data-aos="zoom-out">
+          <h2>MIUI Modules</h2>
+          <p>Choose your Miui Device - </p>
         </div>
-        <br><br>
-        <div class="_aos-bottom _txt-black">
-            <h1>CHECKOUT THE <strong style="color:red; font-size:115%;">DOWNLOADS</strong></h1>
-            
-        </div>
-    </div>
-        <section>
-            <div class="grid" id="ext-grid" style="min-height: 100vh;"></div>
-        </section>
-        <footer class="_bg _radius _aos">
-            <div class="cnt ">
-                <div class="grid">
-                    <div><a href="https://t.me/dualstatusbar"><img src="./src/favicon1.png"></a>
-                    </div>
-                    <div>© Copyright 2021. <a href="https://t.me/miuidsb_support"><b>DualStatusBar</b></a> All Rights Reserved
-                    </div>
-                    <div>
-                        Made by <b><a href="https://t.me/ashmit_05">ASHMIT</a></b>
-                    </div>
-                </div>
-            </div>
-        </footer>
-    </main>
-    <button class="gt-link hide" id="gt-link">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
-            <path d="M12 6H0l6-6z" /></svg>
-    </button>
-   </body>
-<script src="./src/js/script1.js"></script>
+		 <div id="left">
+  <h3>Poco series</h3>
+  
+  
+   <a href="https://dualstatusbar.github.io/miui/pocof1">Poco F1</a><br>
+  
+  
+   <a href="https://dualstatusbar.github.io/miui/pocom3">Poco M3</a><br>
+  
+  
+   <a href="https://dualstatusbar.github.io/miui/pocox2">Poco X2</a><br>
+  
+  
+   <a href="https://dualstatusbar.github.io/miui/pocox3">Poco X3</a><br>
+  
+  
+   <a href="https://dualstatusbar.github.io/miui/pocox3pro">Poco X3 pro</a><br><br>
+  
+  
+   
+  
+  
+  <h3>Redmi Note series </h3><br>
+  
+  
+   <a href="https://dualstatusbar.github.io/miui/note7">Note 7/7s/7pro</a><br>
+  
+  
+   <a href="https://dualstatusbar.github.io/miui/note8">Note 8</a><br>
+  
+  
+   <a href="https://dualstatusbar.github.io/miui/note8pro">Note 8 pro</a><br>
+  
+  
+   <a href="https://dualstatusbar.github.io/miui/note9">Note 9</a><br>
+  
+  
+   <a href="https://dualstatusbar.github.io/miui/note9s">Note 9s</a><br>
+  
+  
+   <a href="https://dualstatusbar.github.io/miui/note9pro">Note 9 pro</a><br>
+  
+  
+   <a href="https://dualstatusbar.github.io/miui/note10">Note 10</a><br>
+  
+  
+   <a href="https://dualstatusbar.github.io/miui/note10Pro">Note 10 pro</a><br>
+  
+  
+   <a href="https://dualstatusbar.github.io/miui/note10lite">Note 10 lite</a><br><br>
+   </div>
+    <div id="right">
+  
+  <h3>MI series</h3>
+   
+   <a href="https://dualstatusbar.github.io/miui/mi9">MI 9</a><br>
+  
+  
+   <a href="https://dualstatusbar.github.io/miui/mi9se">MI 9se</a><br>
+  
+  
+   <a href="https://dualstatusbar.github.io/miui/miA1">MI A1</a><br>
+  
+  
+   <a href="https://dualstatusbar.github.io/miui/mi10pro">MI 10 pro</a><br><br>
+  
+  
+   
+  
+  
+  <h3>Redmi K series</h3>
+  
+   <a href="https://dualstatusbar.github.io/miui/k20">Redmi K20</a><br>
+  
+  
+   <a href="https://dualstatusbar.github.io/miui/k20pro">Redmi K20 pro</a><br>   
+  
+  
+   <a href="https://dualstatusbar.github.io/miui/k30">Redmi K30</a><br>
+   
+  
+  
+   <a href="https://dualstatusbar.github.io/miui/k40">Redmi K40</a><br><br>
+   
+  
+  
+   
+  
+  
+  <h3>Realme Miui port</h3> 
+  
+  
+   <a href="https://dualstatusbar.github.io/miui/MiuiRealme">All Realme MIUI ports</a><br><br>
+
+
+ 
+</div>
+ </section><!-- Modules -->
+    
+<!-- ======= Contact Section ======= -->
+<script language="javascript" type="text/javascript" src="txt/contact.txt"></script>
+
+    <!-- End Contact Section -->
+
+
+<!-- ======= Donate Section ======= -->
+<script language="javascript" type="text/javascript" src="txt/donate.txt"></script>
+    <!-- End Donate Section -->
+
+
+<!-- ======= F.A.Q Section ======= -->
+<script language="javascript" type="text/javascript" src="txt/faq.txt"></script>
+<!-- End F.A.Q Section -->
+
+
+  </main><!-- End #main --><br><br>
+
+  <!-- ======= Footer ======= -->
+<script language="javascript" type="text/javascript" src="txt/footer.txt"></script>
+<!-- Vendor JS Files -->
+<!-- End Footer -->
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
 
 </html>
