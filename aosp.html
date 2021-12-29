@@ -3,23 +3,33 @@
 
 <head>
 <script language="javascript" type="text/javascript" src="txt/headcodes.txt"></script>
+<script>
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, a, i, div;
+  input = document.getElementById("aospsearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("aospmenu");
+  li = ul.getElementsByTagName("li");
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
 <style>
-
- #content { 
-  overflow:auto; 
-  width: 600px; 
-  background: gray; 
-} 
-
-#left, #right { 
-  width: 45%; 
-  margin:1px; 
-  padding: 1em; 
-  background: white; 
-} 
-
-#left  { float:left;  }
-#right { float:right; }
+#aospsearch {
+  width: 75%;
+  font-size: 18px;
+  padding: 11px;
+  border: 1px solid #ddd;
+}
 </style>
 
 </head>
@@ -38,113 +48,138 @@
 
           <div class="section-title" data-aos="zoom-out">
           <h2>Aosp/Caf/Los Modules</h2>
+		  <br>
+		  <h3>Screenshots of both Inbuilt styles-</h3>
+		 <h5> (Can customized more using Dsb Addons )</h5>
+		  <img src="assets/img/aospbasic.jpg" alt="Aosp Basic dsb styles"width="800" height="240"><br>
+		  <br>
+		  <h5>Basic Styles can be selected while installtion using vol keys.
+		  For advanced Styles and Adding colors use<a href=Addon.html> Dsb Addons</a> </h5>
+		 <h5>To check screenshots of Advanced Styles <a href=screenshot.html>Click here</a> </h5>
+		  <br><br>
+
           <p>Choose from the list of Roms- </p>
         </div>
-		 <div id="left">
-		<h3><b>A</b> </h3>
 		
+		<input type="text" id="aospsearch" onkeyup="myFunction()" placeholder="Filter by Rom Name" title="Type in a category">
+		<br><br>
+<ul id="aospmenu">
 
-  <a href="https://dualstatusbar.github.io/aosp/Aex.html">AEX</a> <br>
+<h3><b>A</b> </h3>
+ <li> <a href="https://dualstatusbar.github.io/aosp/Aex.html">Aosp Extended - AEX</a> </li> 
   
-  <a href="https://dualstatusbar.github.io/aosp/Aicp">AICP</a>  <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Aicp"> Android Ice Cold Project - AICP</a>  </li>
   
-   <a href="https://www.pling.com/p/1624369/">AMY ROM </a> <br>
+   <li> <a href="https://www.pling.com/p/1624369/">Amy Rom</a> </li>
    
-    <a href="https://www.pling.com/p/1627703/">ANCIENT OS </a> <br>
+    <li> <a href="https://www.pling.com/p/1627703/">Ancient OS </a> </li>
    
-  <a href="https://dualstatusbar.github.io/aosp/Aosip">AOSIP</a>  <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Aosip">Android Open Source illusion Project - AOSIP</a>  </li>
   
  
- <a href="https://dualstatusbar.github.io/aosp/Aospk">AOSP KRAKEN</a>  <br>
+ <li> <a href="https://dualstatusbar.github.io/aosp/Aospk">Aosp Kraken - AOSPK</a>  </li>
 
-<a href="https://www.pling.com/p/1661796">AOSP Plus</a>  <br>
+<li> <a href="https://www.pling.com/p/1661796">Aosp Plus Rom</a>  </li>
   
- <a href="https://dualstatusbar.github.io/aosp/Arcane">ARCANE OS </a> <br>
+ <li> <a href="https://dualstatusbar.github.io/aosp/Arcane">Arcane OS / Arcana OS</a> </li>
  
    
-  <a href="https://dualstatusbar.github.io/aosp/Arrow">ARROW</a>  <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Arrow">Arrow Os</a>  </li>
   
  
    
-  <a href="https://dualstatusbar.github.io/aosp/Awaken">AWAKEN</a> 
+  <li> <a href="https://dualstatusbar.github.io/aosp/Awaken">Awaken OS</a> 
   
-   <br>
+   </li>
     <br>
 
    <h3><b>B</b> </h3>
   
  
    
-  <a href="https://dualstatusbar.github.io/aosp/Banana">BANANA DROID</a>  <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Banana">Banana Droid</a>  </li>
   
  
    
-  <a href="https://dualstatusbar.github.io/aosp/Baikal">BAIKAL OS</a>  <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Baikal">Baikal OS</a>  </li>
   
-  <a href="https://dualstatusbar.github.io/aosp/BiancaProject">BIANCA PROJECT</a> <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/BiancaProject">Bianca Project</a> </li>
    
-  <a href="https://dualstatusbar.github.io/aosp/Bliss">BLISS</a> 
+  <li> <a href="https://dualstatusbar.github.io/aosp/Bliss">Bliss Rom</a> 
   
-   <br>
+   </li>
    <br>
 
  <h3><b>C</b> </h3>
   
  
    
-  <a href="https://dualstatusbar.github.io/aosp/Cafex">CAFEX</a>  <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Cafex">Caf Extended Rom - Cafex</a>  </li>
   
  
    
-  <a href="https://dualstatusbar.github.io/aosp/Carbon">CARBON</a>  <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Carbon">Carbon Rom</a>  </li>
   
-    <a href="https://www.pling.com/p/1632256/">CESIUM</a>  <br>
+    <li> <a href="https://www.pling.com/p/1632256/">Cesium OS</a>  </li>
  
    
-  <a href="https://dualstatusbar.github.io/aosp/Cherish">CHERISH</a> 
-  <br>
-  
- 
-   
-  <a href="https://dualstatusbar.github.io/aosp/Cipher">CIPHER</a>  <br>
-  
-  
-   <a href="https://www.pling.com/p/1625260/">CITRIC OS </a> <br>
- 
-   
-  <a href="https://dualstatusbar.github.io/aosp/Colt">COLT</a>  <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Cherish">Cherish OS</a> 
+  </li>
   
  
    
-  <a href="https://dualstatusbar.github.io/aosp/Conquer">CONQUER</a> 
-  <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Cipher">Cipher OS</a>  </li>
+  
+  
+   <li> <a href="https://www.pling.com/p/1625260/">Citric OS </a> </li>
+ 
+   
+  <li> <a href="https://dualstatusbar.github.io/aosp/Colt">Colt OS</a>  </li>
   
  
    
-  <a href="https://dualstatusbar.github.io/aosp/Corvus">CORVUS</a>  <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Conquer">Conquer OS</a> 
+  </li>
   
  
    
-  <a href="https://dualstatusbar.github.io/aosp/Crdroid">CRDROID</a> <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Corvus">Corvus OS</a>  </li>
   
-   <a href="https://www.pling.com/p/1629664/">CYGNUS</a>
-   <br>
-    <br>
-
+ 
+   
+  <li> <a href="https://dualstatusbar.github.io/aosp/Crdroid">Crdroid Rom</a> </li>
+  
+   <li> <a href="https://www.pling.com/p/1629664/">Cygnus OS</a>
+   </li>
+    <br> <br>
+ <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2157772818928767"
+     crossorigin="anonymous"></script>
+<!-- 5mid -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2157772818928767"
+     data-ad-slot="3249737496"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+  <br><br>
+ 
 <h3><b>D</b> </h3>
   
  
    
-  <a href="https://dualstatusbar.github.io/aosp/Descendant">DESCENDANT</a>  <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Descendant">Descandant OS </a>  </li>
   
  
    
-  <a href="https://dualstatusbar.github.io/aosp/Derpfest">DERPFEST</a>  <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Derpfest">Derpfest OS</a>  </li>
   
  
    
-  <a href="https://dualstatusbar.github.io/aosp/Dot">DOT-OS &amp; FE</a> 
-  <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Dot">Droid On Time - DOT-OS & DOT-OS FE</a> 
+  </li>
   
    <br>
 
@@ -152,47 +187,47 @@
   
  
    
-  <a href="https://dualstatusbar.github.io/aosp/Evox">EVOLUTION X</a>  <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Evox">Evolution X - EVOX </a>  </li>
   
-    <a href="https://www.pling.com/p/1632190/">ELIXIR</a>  <br>
+    <li> <a href="https://www.pling.com/p/1632190/">Elixir OS</a>  </li>
  
    
-  <a href="https://dualstatusbar.github.io/aosp/Exthum">EXTHUM-UI</a> 
-  <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Exthum">Exthum-UI</a> 
+  </li>
    <br>
 
  <h3><b>F</b> </h3>
   
- <a href="https://www.pling.com/p/1625409/">FLOKO ROM </a> <br>
+ <li> <a href="https://www.pling.com/p/1625409/">Floko Rom </a> </li>
    
-  <a href="https://dualstatusbar.github.io/aosp/Fluid">FLUID OS</a> 
+  <li> <a href="https://dualstatusbar.github.io/aosp/Fluid">Fluid OS</a> 
   
-  <br>
+  </li>
    <br>
 
   <h3><b>H</b> </h3>
   
  
    
-  <a href="https://dualstatusbar.github.io/aosp/Havoc">HAVOC OS</a>  <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Havoc">Havoc OS</a>  </li>
   
-  <a href="https://dualstatusbar.github.io/aosp/Hentai">HENTAI OS </a>  <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Hentai">Hentai OS </a>  </li>
    
-  <a href="https://dualstatusbar.github.io/aosp/Hycon">HYCON OS</a>  <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Hycon">Hycon OS</a>  </li>
   
-  <br>
+  </li>
    <br>
 
  <h3><b>K</b> </h3>
   
  
    
-  <a href="https://dualstatusbar.github.io/aosp/Kang">KANG OS</a> 
-  <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Kang">Kang OS</a> 
+  </li>
   
-  <a href="https://dualstatusbar.github.io/aosp/Komodo">KOMODO OS  </a> <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Komodo">Komodo OS  </a> </li>
   
-   <a href="https://www.pling.com/p/1625276/">KUSMI ROM </a> <br>
+   <li> <a href="https://www.pling.com/p/1625276/">Kusmi Rom </a> </li>
    <br>
 
 
@@ -201,154 +236,172 @@
   
  
    
-  <a href="https://dualstatusbar.github.io/aosp/Legion">LEGION</a>  <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Legion">Legion Rom</a>  </li>
   
  
    
-  <a href="https://dualstatusbar.github.io/aosp/Lineage">LINEAGE BASED ROMS</a> 
+  <li> <a href="https://dualstatusbar.github.io/aosp/Lineage">Lineage based Roms</a> 
   
-  <br>
+  </li>
    <br>
-  </div>
- <div id="right">
+
   <h3><b>M</b> </h3>
   
  
    
-  <a href="https://dualstatusbar.github.io/aosp/Mokee">MOKEE</a> 
-  <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Mokee">Mokee OS</a> 
+  </li>
    <br>
 
   <h3><b>N</b> </h3>
   
  
    
-  <a href="https://dualstatusbar.github.io/aosp/Nezuko">NEZUKO OS</a>  <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Nezuko">Nezuko OS</a>  </li>
   
  
    
-  <a href="https://dualstatusbar.github.io/aosp/Nusantara">NUSANTARA</a> 
-  <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Nusantara">Nusantara Project</a> 
+  </li>
    <br>
    
    <h3><b>O</b> </h3>
   
  
    
-  <a href="https://dualstatusbar.github.io/aosp/Octavi">OCTAVI OS</a> 
-   <br>
-  <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Octavi">Octavi OS</a> 
+   </li>
+  <br><br>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2157772818928767"
+     crossorigin="anonymous"></script>
+<!-- mid6 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2157772818928767"
+     data-ad-slot="2773410560"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+  <br><br>
   <h3><b>P</b> </h3>
   
- <a href="https://www.pling.com/p/1618578/">PALLADIUM OS</a>  <br>
+ <li> <a href="https://www.pling.com/p/1618578/">Palladium OS</a>  </li>
    
-  <a href="https://dualstatusbar.github.io/aosp/Paranoid">PARANOID</a>  <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Paranoid">Paranoid Android</a>  </li>
   
  
    
-  <a href="https://dualstatusbar.github.io/aosp/Pixel">PIXEL BASED ROMS</a>  <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Pixel">Pixel based Roms</a>  </li>
   
  
    
-  <a href="https://dualstatusbar.github.io/aosp/Posp">POSP</a> 
-   <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Posp">Potato Open Sauce Project - POSP</a> 
+   </li>
 
-  <a href="https://dualstatusbar.github.io/aosp/P404">PRJT 404</a>  <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/P404">Project 404</a>  </li>
   
  
    
-  <a href="https://dualstatusbar.github.io/aosp/Lighthouse">PRJT LIGHTHOUSE</a>  <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Lighthouse">Project Lighthouse</a>  </li>
   
  
    
-  <a href="https://dualstatusbar.github.io/aosp/Radiant">PRJT RADIANT</a> 
-  <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Radiant">Project Radiant</a> 
+  </li>
  
    
-  <a href="https://dualstatusbar.github.io/aosp/Sakura">PRJT SAKURA</a> <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Sakura">Project Sakura</a> </li>
   
-  <a href="https://www.pling.com/p/1626106/">PROTON AOSP</a> 
-   <br>
+  <li> <a href="https://www.pling.com/p/1626106/">Project Zephyrus - Proton Knock off</a> </li>
+  
+  <li> <a href="https://www.pling.com/p/1626106/">Proton Aosp</a> 
+   </li>
     <br>
   <h3><b>R</b> </h3>
   
  
    
-  <a href="https://dualstatusbar.github.io/aosp/RR">RESURRECTION REMIX</a>  <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/RR">Resurrection Remix - RR</a>  </li>
   
-<a href="https://dualstatusbar.github.io/aosp/Rohie">Rohie OS</a>  <br>
+<li> <a href="https://dualstatusbar.github.io/aosp/Rohie">Rohie OS</a>  </li>
    
-  <a href="https://dualstatusbar.github.io/aosp/Reloaded">RELOADED OS</a> 
-  <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Reloaded">Reloaded OS</a> 
+  </li>
    <br>
   <h3><b>S</b> </h3> 
   
  
    
-  <a href="https://dualstatusbar.github.io/aosp/Spark">SPARK OS</a>  <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Spark">Spark OS</a>  </li>
   
  
    
-  <a href="https://dualstatusbar.github.io/aosp/Shapeshift">SHAPESHIFT OS</a>  <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Shapeshift">Shapeshift OS</a>  </li>
   
  
    
-  <a href="https://dualstatusbar.github.io/aosp/Stag">STAG OS</a> 
-  <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Stag">Stag OS</a> 
+  </li>
  
    
-  <a href="https://dualstatusbar.github.io/aosp/Statix">STATIX OS</a>  <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Statix">Statix OS</a>  </li>
   
-  <a href="https://dualstatusbar.github.io/aosp/Stellar">STELLAR</a>  <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Stellar">Stellar</a>  </li>
    
-  <a href="https://dualstatusbar.github.io/aosp/Superior">SUPERIOR OS</a>  <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Superior">Superior OS</a>  </li>
   
  
    
-  <a href="https://dualstatusbar.github.io/aosp/Syberia">SYBERIA OS</a> 
-   <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Syberia">Syberia OS</a> 
+   </li>
   <br>
   
   <h3><b>T</b> </h3>
   
  
    
-  <a href="https://www.pling.com/p/1637749/">TITAN</a> 
-  <br>
+  <li> <a href="https://www.pling.com/p/1637749/">Titan OS</a> 
+  </li>
    <br>
  <h3><b>V</b> </h3>
-   <a href="https://www.pling.com/p/1636980/">VOLTAGE</a> 
-  <br>
+   <li> <a href="https://www.pling.com/p/1636980/">Voltage OS</a> 
+  </li>
    <br>
 
  <h3><b>W</b> </h3>
   
  
    
-  <a href="https://dualstatusbar.github.io/aosp/Wave">WAVE OS</a> 
-  <br>
-   <a href="https://www.pling.com/p/1642835/">WEEB OS</a> 
-  <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Wave">Wave OS</a> 
+  </li>
+   <li> <a href="https://www.pling.com/p/1642835/">Weeb Project</a> 
+  </li>
    <br>
  <h3><b>X</b> </h3>
  
    
-  <a href="https://dualstatusbar.github.io/aosp/Xdroid">XDROID</a>  <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Xdroid">Xdroid rom </a>  </li>
   
  
    
-  <a href="https://dualstatusbar.github.io/aosp/Xperience">XPERIENCE PROJECT</a>  <br>
+  <li> <a href="https://dualstatusbar.github.io/aosp/Xperience">xperience PROJECT</a>  </li>
   
  
    
-  <a href="https://dualstatusbar.github.io/aosp/Xtended">XTENDED OS</a> 
+  <li> <a href="https://dualstatusbar.github.io/aosp/Xtended">Xtended OS</a> 
 
+   </li>
    <br>
+  <li> <a href="https://www.pling.com/p/1480177/">Other Old Custom Roms</a>
+  </li>
    <br>
-  <a href="https://www.pling.com/p/1480177/">Other Old Custom Roms</a>
-  <br>
-   <br>
-
+</ul>
+ <br>
+          <b>Note</b> : All modules needed to be flashed in MAGISK, Flashing incorrect module may cause bootloop, and modules need to be removed from recovery. <br>
+		  To remove a module flash it in recovery or follow manual module removal method (<a href="bootloopfix.html"> Click here to learn how</a> ) <br>
+		 Use Telegram support Group <a href="https://t.me/dualstatusbar"> @dualstatusbar </a> if you want to request a DSB module for your device/rom.<br>
      </div>
 </div>
 

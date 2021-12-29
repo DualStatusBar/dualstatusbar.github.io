@@ -3,25 +3,34 @@
 
 <head>
 <script language="javascript" type="text/javascript" src="txt/headcodes.txt"></script>
- <style>
+<script>
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, a, i, div;
+  input = document.getElementById("miuisearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("miuimenu");
+  li = ul.getElementsByTagName("li");
 
- #content { 
-  overflow:auto; 
-  width: 600px; 
-  background: gray; 
-} 
-
-#left, #right { 
-  width: 45%; 
-  margin:1px; 
-  padding: 1em; 
-  background: white; 
-} 
-
-#left  { float:left;  }
-#right { float:right; }
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+<style>
+#miuisearch {
+  width: 75%;
+  font-size: 18px;
+  padding: 11px;
+  border: 1px solid #ddd;
+}
 </style>
-</head>
 
 <body>
 
@@ -37,42 +46,47 @@
 
           <div class="section-title" data-aos="zoom-out">
           <h2>MIUI Modules</h2>
+		  <h3>Screenshots of both styles-</h3>
+		 <h5> (Can customized more using Dsb Addons )</h5>
+		  <img src="assets/img/miuibasic.jpg" alt="miui dsb styles" width="800" height="400">
+		  <br>
+		  <h5>Styles can be selected while installtion using vol keys.
+		  Or changed later on using <a href=Addon.html> Dsb Addons</a>, similarly colors can be added using addons </h5>
+		  <br><br>
           <p>Choose your Device running on MIUI- </p>
         </div>
+		
 		 <div>
-  <h3>Xiaomi Poco series</h3>
+		 		<input type="text" id="miuisearch" onkeyup="myFunction()" placeholder="Filter by Device Name" title="Type in a category">
+		<br><br>
+<ul id="miuimenu">
+  <h3><li><a><b>Xiaomi Poco series</b></a></li></h3>
   
   
-   <a href="https://dualstatusbar.github.io/miui/pocof1">Xiaomi Poco F1</a><br>
+   <li> <a href="https://dualstatusbar.github.io/miui/pocof1">Xiaomi Poco F1</a></li>
+  
+<li> <a href="https://dualstatusbar.github.io/miui/k40">Xiaomi Poco F3/ Redmi K40 / Mi 11X</a></li>
+  
+   <li> <a href="https://dualstatusbar.github.io/miui/pocom3">Xiaomi Poco M3</a></li>
   
   
-   <a href="https://dualstatusbar.github.io/miui/pocom3">Xiaomi Poco M3</a><br>
+   <li> <a href="https://dualstatusbar.github.io/miui/pocox2">Xiaomi Poco X2 / Redmi K30</a></li>
   
   
-   <a href="https://dualstatusbar.github.io/miui/pocox2">Xiaomi Poco X2</a><br>
+   <li> <a href="https://dualstatusbar.github.io/miui/pocox3">Xiaomi Poco X3</a></li>
+   
   
   
-   <a href="https://dualstatusbar.github.io/miui/pocox3">Xiaomi Poco X3</a><br>
-  
-  
-   <a href="https://dualstatusbar.github.io/miui/pocox3pro">Xiaomi Poco X3 pro</a><br><br><br>
-  
+   <li> <a href="https://dualstatusbar.github.io/miui/pocox3pro">Xiaomi Poco X3 pro</a></li><br><br>
+  <br>
   
      
-  <h3>Redmi K series</h3>
-  
-   <a href="https://dualstatusbar.github.io/miui/k20">Redmi K20</a><br>
-  
-  
-   <a href="https://dualstatusbar.github.io/miui/k20pro">Redmi K20 pro</a><br>   
-  
-  
-   <a href="https://dualstatusbar.github.io/miui/k30">Redmi K30</a><br>
+  <h3><li><a><b>Redmi K series</b></a></li></h3>
+ 
    
-  
-  
-   <a href="https://dualstatusbar.github.io/miui/k40">Redmi K40</a><br><br><br>
-   
+    <li> <a href="https://dualstatusbar.github.io/miui/k305G">Redmi K30 5G</a></li>
+<br><br>
+   <br>
    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2157772818928767"
      crossorigin="anonymous"></script>
 <!-- 5mid -->
@@ -86,36 +100,35 @@
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
   <br><br>
-  
-  <h3>Redmi Note series </h3>
-  
-  
-   <a href="https://dualstatusbar.github.io/miui/note7">Redmi Note 7/7s/7pro</a><br>
+  <br>
+  <h3><li><a><b>Redmi Note series</b></a></li></h3>
   
   
-   <a href="https://dualstatusbar.github.io/miui/note8">Redmi Note 8</a><br>
+   <li> <a href="https://dualstatusbar.github.io/miui/note7">Redmi Note 7/7s/7pro</a></li>
   
   
-   <a href="https://dualstatusbar.github.io/miui/note8pro">Redmi Note 8 pro</a><br>
+   <li> <a href="https://dualstatusbar.github.io/miui/note8">Redmi Note 8</a></li>
+  
+  
+   <li> <a href="https://dualstatusbar.github.io/miui/note8pro">Redmi Note 8 pro</a></li>
    
   
-   <a href="https://dualstatusbar.github.io/miui/note9">Redmi Note 9</a><br>
+   <li> <a href="https://dualstatusbar.github.io/miui/note9">Redmi Note 9 / Redmi 10X 4G</a></li>
   
   
-   <a href="https://dualstatusbar.github.io/miui/note9s">Redmi Note 9s</a><br>
+   <li> <a href="https://dualstatusbar.github.io/miui/note9s">Redmi Note 9s</a></li>
   
   
-   <a href="https://dualstatusbar.github.io/miui/note9pro">Redmi Note 9 pro</a><br>
+   <li> <a href="https://dualstatusbar.github.io/miui/note9pro">Redmi Note 9 pro</a></li>
   
   
-   <a href="https://dualstatusbar.github.io/miui/note10">Redmi Note 10</a><br>
+   <li> <a href="https://dualstatusbar.github.io/miui/note10">Redmi Note 10</a></li>
   
   
-   <a href="https://dualstatusbar.github.io/miui/note10pro">Redmi Note 10 pro</a><br>
+   <li> <a href="https://dualstatusbar.github.io/miui/note10pro">Redmi Note 10 pro</a></li>
   
-  
-   <a href="https://dualstatusbar.github.io/miui/note10lite">Redmi Note 10 lite</a><br><br><br>
 
+<br>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2157772818928767"
      crossorigin="anonymous"></script>
 <!-- mid6 -->
@@ -128,36 +141,57 @@
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-  <br><br>
-  <h3>MI series</h3>
+  <br><br><br>
+  <h3><li><a><b>MI series</b></a></li></h3>
    
-   <a href="https://dualstatusbar.github.io/miui/mi9">MI 9</a><br>
-  
-  
-   <a href="https://dualstatusbar.github.io/miui/mi9se">MI 9se</a><br>
-  
-  
-   <a href="https://dualstatusbar.github.io/miui/mia1">MI A1</a><br>
-  
-  
-   <a href="https://dualstatusbar.github.io/miui/mi10pro">MI 10T</a><br><br><br>
-  
-  
-   
- 
-  
-  
-    <h3>Other Redmi Series</h3> 
+    <li> <a href="https://dualstatusbar.github.io/miui/mia1">MI A1</a></li>
 	
-   <a href="https://dualstatusbar.github.io/miui/redmi9">Redmi 9</a><br><br><br>
+	
+	 <li> <a href="https://dualstatusbar.github.io/miui/mia2">MI A2</a></li>
+   
+   <li> <a href="https://dualstatusbar.github.io/miui/mi9">MI 9</a></li>
   
-  <h3>Miui port roms for Realme devices</h3> 
+  
+   <li> <a href="https://dualstatusbar.github.io/miui/mi9se">MI 9 se</a></li>
+   
+     
+   <li> <a href="https://dualstatusbar.github.io/miui/k20">Mi9T / Redmi K20</a></li>
   
   
-   <a href="https://dualstatusbar.github.io/miui/realme">All Realme MIUI ports</a><br><br><br>
-
-
+   <li> <a href="https://dualstatusbar.github.io/miui/k20pro">Mi 9T pro / Redmi K20 pro</a></li>  
+  
+    
+   <li> <a href="https://dualstatusbar.github.io/miui/mi10lite">Mi 10 lite</a></li>
+  
+  
+   <li> <a href="https://dualstatusbar.github.io/miui/mi10tpro">MI 10T pro / Redmi K30S</a></li>
+  
+  <li> <a href="https://dualstatusbar.github.io/miui/mi11">MI 11</a></li>
+  
+  <li> <a href="https://dualstatusbar.github.io/miui/mi11lite">MI 11 lite</a></li>
+   
  
+  <br>
+  
+    <h3><li><a><b>Redmi Series</b></a></li></h3>
+	
+   <li> <a href="https://dualstatusbar.github.io/miui/redmi9">Redmi 9 </a></li>
+   <li> <a href="https://dualstatusbar.github.io/miui/redmi9t">Redmi 9T / Redmi Note 9 4G/Redmi 9 Power </a></li>
+  <li> <a href="https://dualstatusbar.github.io/miui/oldmiui">Other Redmi Devices</a></li><br><br>
+  
+  
+  <h3><li><a><b>Miui port roms for Realme devices</b></a></li></h3>
+  
+  
+  
+   <li> <a href="https://dualstatusbar.github.io/miui/realme">All Realme MIUI ports</a></li><br><br>
+<br>
+
+ </ul>
+  <br>
+          <b>Note</b> : All modules needed to be flashed in MAGISK, Flashing incorrect module may cause bootloop, and modules need to be removed from recovery. <br>
+		  To remove a module flash it in recovery or follow manual module removal method (<a href="bootloopfix.html"> Click here to learn how</a> ) <br>
+		 Use Telegram support Group <a href="https://t.me/dualstatusbar"> @dualstatusbar </a> if you want to request a DSB module for your device/rom.<br>
 </div>
  </section><!-- Modules -->
     
